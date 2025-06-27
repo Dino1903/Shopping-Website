@@ -1,4 +1,3 @@
-/* Basic reset */
 * {
     box-sizing: border-box;
 }
@@ -16,7 +15,6 @@ header {
     padding: 20px 30px;
 }
 
-/* Container */
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -92,7 +90,6 @@ header {
     color: green;
 }
 
-/* RIGHT: Icons + Button */
 .header-right {
     display: flex;
     align-items: center;
@@ -220,7 +217,6 @@ header {
     justify-content: center;
 }
 
-/* Search Form */
 .search-form {
     flex: 1;
     display: flex;
@@ -295,7 +291,6 @@ header {
     }
 }
 
-/* Main Headline */
 .main-headline {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
@@ -307,7 +302,6 @@ header {
     max-width: 513px;
 }
 
-/* Animated Text */
 .text-anim-wrapper {
     position: absolute;
     width: 531px;
@@ -366,7 +360,6 @@ header {
     }
 }
 
-/* Subtext */
 .subtext {
     position: absolute;
     width: 460px;
@@ -380,7 +373,6 @@ header {
     color: #000000;
 }
 
-/* Image Stack Container */
 .image-stack {
     position: absolute;
     left: 720px;
@@ -390,7 +382,6 @@ header {
     z-index: 1;
 }
 
-/* Ellipse Background */
 .ellipse-bg {
     position: relative;
     width: 586px;
@@ -401,7 +392,6 @@ header {
     z-index: 0;
 }
 
-/* Main Image */
 .main-image {
     position: absolute;
     width: 655px;
@@ -412,7 +402,6 @@ header {
     z-index: 1;
 }
 
-/* Testimonial Card */
 .testimonial-card {
     position: absolute;
     width: 439px;
@@ -1002,12 +991,9 @@ header {
 .delivery-animation {
     position: absolute;
     width: 400px;
-    /* Adjusted to fit inside the triangle */
     height: 400px;
     left: 250px;
-    /* Centered inside polygon */
     top: 2150px;
-    /* Positioned so it appears within the triangle */
     background: url('/images/image-gif.gif') no-repeat center center;
     background-size: contain;
     z-index: 2;
@@ -1137,7 +1123,6 @@ header {
     height: 48px;
     border-radius: 50%;
     background: url('/images/profile1.png') center/cover no-repeat;
-    /* Or just background-color if image is not ready */
     background-color: #ccc;
     flex-shrink: 0;
 }
@@ -1147,7 +1132,6 @@ header {
     height: 48px;
     border-radius: 50%;
     background: url('/images/profile2.png') center/cover no-repeat;
-    /* Or just background-color if image is not ready */
     background-color: #ccc;
     flex-shrink: 0;
 }
@@ -1263,7 +1247,6 @@ header {
 .courier-image {
     width: 332px;
     height: 100%;
-    /* matches section height */
     background: url('/images/front-view-male-courier-green-uniform-cape-holding-coffee-cups-with-notepad-smiling-pink-background-service-uniform-delivery-job-removebg-preview.png') no-repeat center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1445,7 +1428,6 @@ header {
     color: #FFFFFF;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .footer-top {
         flex-direction: column;
