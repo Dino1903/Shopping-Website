@@ -1,0 +1,351 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickPik</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <script src="https://unpkg.com/lottie-web@5.7.6/build/player/lottie.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+
+            <!-- LEFT: Logo and Hamburger -->
+            <div class="header-left">
+                <div class="logo">Quick<span class="pik">Pik</span></div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- CENTER: Navigation -->
+            <nav class="navbar">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- RIGHT: Icons + Shop Now -->
+            <div class="header-right">
+                <button class="shop-now">Shop Now</button>
+                <div class="icons">
+                    <a href="#"><iconify-icon icon="mdi:cart"></iconify-icon></a>
+                    <a href="#"><iconify-icon icon="iconamoon:profile-circle-fill"></iconify-icon></a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <section class="top-bar">
+            <div class="container">
+                <button class="categories-btn">
+                    <span class="icon">
+                        <iconify-icon icon="iconamoon:category" width="14" height="14"></iconify-icon>
+                    </span>
+                    <span class="label">All Categories</span>
+                </button>
+                <form class="search-form">
+                    <input type="text" placeholder="What are you looking for?" />
+                    <button type="submit">
+                        <iconify-icon icon="mdi:magnify" width="20" height="20"></iconify-icon>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="discount-badge">
+            <p>30% Off on groceries</p>
+        </section>
+        <!-- Hero Headline -->
+        <h1 class="main-headline">Shop smarter, not harder.</h1>
+
+        <!-- Animated Text -->
+        <div class="text-anim-wrapper">
+            <div class="text-anim">
+                <div class="line red">Get it ordered.</div>
+                <div class="line purple">Get it shipped.</div>
+                <div class="line green">Get it delivered.</div>
+                <div class="line red">Get it ordered.</div>
+            </div>
+        </div>
+
+        <!-- Subtext -->
+        <div class="subtext">
+            Save time, skip the lines. We've got you covered.
+        </div>
+
+        <div class="image-stack">
+            <img class="ellipse-bg" src="../images/ellipse.png" alt="Decorative ellipse background">
+            <img class="main-image"
+                src="../images/smiling-young-caucasian-girl-with-pixie-haircut-standing-profile-view-holding-shopping-bags-shoulder-isolated-olive-green-background-with-copy-space-removebg-preview.png"
+                alt="Smiling young girl with shopping bags">
+        </div>
+
+        <!-- Testimonial -->
+        <div class="testimonial-card">
+            <div class="profile-pic"></div>
+            <div class="profile-name">Ashely Daniels</div>
+            <div class="profile-quote">"Saved me tons of time - never going back to grocery shopping!"</div>
+        </div>
+
+
+        <div class="trending-title">Trending Products</div>
+        <div class="products-section">
+            <div class="product-card" style="background-image: url('../images/grocery.png');"></div>
+            <div class="product-card" style="background-image: url('../images/shoes.png');"></div>
+            <div class="product-card" style="background-image: url('../images/phones.png');"></div>
+            <div class="product-card" style="background-image: url('../images/googlehome.png');"></div>
+            <div class="product-card" style="background-image: url('../images/alarmclocks.png');"></div>
+        </div>
+        <section class="deal-section">
+            <div class="deal-wrapper">
+                <h3 class="deal-heading">Deal Of The Week</h3>
+
+                <div class="deal-timer">
+                    <div class="time-box">
+                        <div class="time-value">10</div>
+                        <div class="time-label">Days</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="time-value">19</div>
+                        <div class="time-label">Hours</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="time-value">59</div>
+                        <div class="time-label">Minutes</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="time-value">57</div>
+                        <div class="time-label">Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="product-list-section">
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <div class="post-image">
+                        <img src="/images/purpleperfume.png" alt="Vitamin C" />
+                        <span class="onsale"><span>Sale</span></span>
+                    </div>
+                    <div class="product-details">
+                        <h4>Elegant Perfumes</h4>
+                        <p class="price">$16.00</p>
+                        <ul class="features">
+                            <li><span class="check"></span>3 cleaning programs</li>
+                            <li><span class="check"></span>Digital display</li>
+                            <li><span class="check"></span>Memory for 1 user</li>
+                        </ul>
+                        <a class="buy-btn" href="#"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <div class="post-image">
+                        <img src="/images/orangebottle.png" alt="Insulin" />
+                        <span class="onsale"><span>Sale</span></span>
+                    </div>
+                    <div class="product-details">
+                        <h4>Strawberry Shampoo</h4>
+                        <p class="price">$18.88</p>
+                        <ul class="features">
+                            <li><span class="check"></span>3 cleaning programs</li>
+                            <li><span class="check"></span>Digital display</li>
+                            <li><span class="check"></span>Memory for 1 user</li>
+                        </ul>
+                        <a class="buy-btn" href="#"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h3 class="medicalproducts-heading">Medical Products</h3>
+
+        <section class="promo-banners">
+            <div class="promo-banner left-banner">
+                <div class="banner-back bg1"></div>
+                <span class="text-wrapper"><span>From $0.99</span></span>
+                <h4>Breathable</h4>
+                <a href="#" class="cta-button">
+                    <span class="regular"></span>
+                    <span class="shop-text">Shop now</span>
+                    <span class="icon">&rarr;</span>
+                </a>
+            </div>
+
+            <div class="promo-banner right-banner">
+                <div class="banner-back bg2"></div>
+                <span class="text-wrapper"><span>From $0.99</span></span>
+                <h4>Covid 19 pack</h4>
+                <a href="#" class="cta-button">
+                    <span class="regular"></span>
+                    <span class="shop-text">Shop now</span>
+                    <span class="icon">&rarr;</span>
+                </a>
+            </div>
+        </section>
+        <div class="polygon-shape"></div>
+        <div class="delivery-animation"></div>
+
+        <div class="delivery-text">
+            Big city savings,<br>
+            delivered to your <span class="red-text">doorstep</span>.
+        </div>
+        <h3 class="bottom-heading">Our Actions speaks louder than WORDS</h3>
+
+        <section class="testimonials-frame">
+            <div class="testimonials-bg"></div>
+
+            <h2 class="testimonials-heading">
+                Unlock the secrets of satisfied customers.
+            </h2>
+
+
+            <div class="testimonials-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-box">
+                    <p class="testimonial-text">
+                        “Never going back to waiting in lines! Shop smarter, get it delivered with QuickPik. It's that
+                        simple.”
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="ellipse1"></div>
+                        <div class="author-details">
+                            <p class="name">Albus Dumbledore</p>
+                            <p class="position">Manager @ Howarts</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-box tall">
+                    <p class="testimonial-text">
+                        “Wide selection, even in my small town! Found everything I needed for my birthday party with
+                        just a few clicks. Thanks, QuickPik!”
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="ellipse2"></div>
+                        <div class="author-details">
+                            <p class="name">Albus Dumbledore</p>
+                            <p class="position">Manager @ Howarts</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-box">
+                    <p class="testimonial-text">
+                        “Lifesaver for busy families! Fresh groceries delivered in a flash - dinner's on the table,
+                        thanks QuickPik!”
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="ellipse3"></div>
+                        <div class="author-details">
+                            <p class="name">Albus Dumbledore</p>
+                            <p class="position">Manager @ Howarts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-arrows">
+                <button class="arrow arrow-left">
+                    <img src="/images/left-arrow.png" alt="Previous" />
+                </button>
+                <button class="arrow arrow-right">
+                    <img src="/images/right-arrow.png" alt="Next" />
+                </button>
+            </div>
+        </section>
+
+        <div class="section-gap"></div>
+
+        <section class="cta-gradient-section">
+            <div class="courier-image"></div>
+
+            <div class="cta-text-button">
+                <h3 class="cta-heading">
+                    Sign Up For Exclusive Offers<br><span class="break-line">and Discounts</span>
+                </h3>
+                <div class="cta-button-wrapper">
+                    <button class="cta-signup-button">Sign Up</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h1 class="footer-logo">
+                    <span class="quick">Quick</span><span class="pik">Pik</span>
+                </h1>
+                <p class="footer-tagline">Shop smarter, not harder. Get it delivered.</p>
+                <div class="footer-socials">
+                    <img src="/images/insta-logo.png" alt="Instagram">
+                    <img src="/images/meta-logo.png" alt="Meta">
+                    <img src="/images/fb-logo.png" alt="Facebook">
+                    <img src="/images/YT-logo.png" alt="YouTube">
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Quick Links</h4>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Products</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="link-group">
+                    <h4>Locations</h4>
+                    <a href="#">Mumbai</a>
+                    <a href="#">Pune</a>
+                    <a href="#">Nagpur</a>
+                    <a href="#">Bangalore</a>
+                    <a href="#">Goa</a>
+                </div>
+            </div>
+
+            <div class="footer-animation">
+                <img src="/images/lottie-gif.gif" alt="Shopping Animation">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© All Rights Reserved QuickPik</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
